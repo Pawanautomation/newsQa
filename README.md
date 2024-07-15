@@ -1,4 +1,3 @@
-Sure, here's a detailed README file excluding the actual script files and excluding coverage information. This README will include instructions on setting up the environment, installing dependencies, running tests, and configuring the `.env` file.
 
 ---
 
