@@ -1,0 +1,98 @@
+### Test Plan Document
+
+---
+
+**Project Name:** HackerNewsFinal
+
+**Prepared By:** [Your Name]
+
+**Date:** [Today's Date]
+
+#### Table of Contents
+
+1. Introduction
+2. Scope
+3. Objectives
+4. Test Environment
+5. Test Scope
+6. Test Deliverables
+7. Schedule
+8. Risks and Assumptions
+9. Approval
+
+### 1. Introduction
+
+This document describes the test plan for the HackerNewsFinal project, which is designed to test the functionality of the Hacker News application using Playwright.
+
+### 2. Scope
+
+The scope of this test plan includes:
+
+- End-to-end testing of the Hacker News application
+- API testing
+- Verification of sorting order for news articles on different pages
+
+### 3. Objectives
+
+The primary objectives of this test plan are:
+
+- To ensure that the news articles are sorted correctly on the front and newest pages
+- To verify the API response for fetching news data
+- To validate the functionality and usability of the application
+
+### 4. Test Environment
+
+The test environment includes:
+
+- Playwright testing framework
+- Node.js
+- The Hacker News application (https://news.ycombinator.com/)
+- .env file for configuration
+
+### 5. Test Scope
+
+The following components will be tested:
+
+- FrontPage: Verifies the sorting order of news articles on the front page
+- NewestPage: Verifies the sorting order of news articles on the newest page
+- NewsService: Verifies the API response for fetching news data
+
+### 6. Test Deliverables
+
+The deliverables for this test plan include:
+
+- Test cases document
+- Test execution results
+- Bug reports (if any)
+- Test summary report
+
+### 7. Schedule
+
+| Activity              | Start Date | End Date   |
+|-----------------------|------------|------------|
+| Test Planning         | [Start Date] | [End Date] |
+| Test Case Development | [Start Date] | [End Date] |
+| Test Execution        | [Start Date] | [End Date] |
+| Bug Reporting         | [Start Date] | [End Date] |
+| Test Closure          | [Start Date] | [End Date] |
+
+### 8. Risks and Assumptions
+
+**Risks:**
+
+- Changes in the application under test
+- Delays in setting up the test environment
+
+**Assumptions:**
+
+- The application will be stable and accessible during the testing phase
+- All necessary resources (e.g., environment variables) are available
+
+### 9. Approval
+
+| Name        | Role           | Signature | Date       |
+|-------------|----------------|-----------|------------|
+| [Your Name] | Test Engineer  |           | [Today's Date] |
+
+---
+

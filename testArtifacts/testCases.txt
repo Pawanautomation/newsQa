@@ -1,0 +1,75 @@
+### Test Cases Document
+
+---
+
+**Project Name:** HackerNewsFinal
+
+**Prepared By:** [Your Name]
+
+**Date:** [Today's Date]
+
+#### Table of Contents
+
+1. Introduction
+2. Test Cases
+
+### 1. Introduction
+
+This document outlines the test cases for the HackerNewsFinal project, which tests the functionality of the Hacker News application using Playwright.
+
+### 2. Test Cases
+
+#### Test Case 1: Verify Sorting Order on Front Page
+
+| Test Case ID | TC001                       |
+|--------------|-----------------------------|
+| Description  | Verify that the news articles on the front page are sorted correctly from newest to oldest |
+| Precondition | The application is up and running, and the environment variables are set |
+| Test Steps   | 1. Navigate to the front page<br>2. Extract timestamps from articles<br>3. Validate the sorting order |
+| Expected Result | The news articles should be sorted from newest to oldest |
+| Status       | Pass/Fail                   |
+| Remarks      |                             |
+
+#### Test Case 2: Verify Sorting Order on Newest Page
+
+| Test Case ID | TC002                       |
+| Description  | Verify that the news articles on the newest page are sorted correctly from newest to oldest |
+| Precondition | The application is up and running, and the environment variables are set |
+| Test Steps   | 1. Navigate to the newest page<br>2. Extract timestamps from articles<br>3. Validate the sorting order |
+| Expected Result | The news articles should be sorted from newest to oldest |
+| Status       | Pass/Fail                   |
+| Remarks      |                             |
+
+#### Test Case 3: Verify API Response for Fetching News Data
+
+| Test Case ID | TC003                       |
+| Description  | Verify the API response for fetching news data |
+| Precondition | The application is up and running, and the environment variables are set |
+| Test Steps   | 1. Send a request to the news API<br>2. Verify the response status and structure |
+| Expected Result | The API should return a valid response with the expected structure |
+| Status       | Pass/Fail                   |
+| Remarks      |                             |
+
+#### Test Case 4: Verify Logger Functionality
+
+| Test Case ID | TC004                       |
+| Description  | Verify that the logger records the correct information during navigation and validation steps |
+| Precondition | The application is up and running, and the environment variables are set |
+| Test Steps   | 1. Navigate to the front or newest page<br>2. Perform sorting validation<br>3. Check the log file for correct entries |
+| Expected Result | The log file should contain correct entries for each step performed |
+| Status       | Pass/Fail                   |
+| Remarks      |                             |
+
+#### Test Case 5: Validate Pagination and Sorting
+
+| Test Case ID | TC005                       |
+| Description  | Verify that the news articles maintain sorting order when paginating through the news list |
+| Precondition | The application is up and running, and the environment variables are set |
+| Test Steps   | 1. Navigate to the front or newest page<br>2. Perform sorting validation<br>3. Click the "More" link to load more articles<br>4. Validate the sorting order again |
+| Expected Result | The news articles should maintain sorting order even after pagination |
+| Status       | Pass/Fail                   |
+| Remarks      |                             |
+
+---
+
+This test plan and test cases document provides a comprehensive overview and detailed test scenarios for the Hacker News application. It includes the setup, execution, and verification steps required to ensure the functionality and sorting accuracy of news articles on different pages.
