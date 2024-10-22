@@ -79,4 +79,4 @@ await browser.switchToWindow(handles[1]); // Switch to second tab
 
 These sticky notes will cover basic operations like navigating, interacting with elements, handling pop-ups, switching frames, and counting products during your interview.
 
-If you want more items or want to expand a specific section, you can add additional instructions and commands to each note based on your needs.
+If you want more items or want to expand a specific section, you can add additional instructions and commands to each note based on your needs
